@@ -9,19 +9,21 @@ https://www.drkrzysztofozimek.com/marcenko-pastur-covariance-randomness-test/
 
 ## Overview
 
-The Marcenko–Pastur test evaluates whether the eigenvalue spectrum of a covariance or correlation matrix is consistent with random noise.
-
-It is particularly useful in:
-
-- financial time series analysis  
-- covariance matrix diagnostics  
-- portfolio risk analysis  
-- anomaly detection  
-- model validation  
-
-The test is based on results from random matrix theory and provides a benchmark for distinguishing signal from noise in empirical covariance matrices.
+This post introduces a simulation-based test using the Marčenko–Pastur distribution to assess the randomness of covariance matrices. By comparing the proportion of eigenvalues within theoretical MP bounds to those from simulated random matrices, the test produces an empirical p-value that helps determine whether a matrix reflects real structure or noise. Implemented in both R and Python, the method is especially useful for high-dimensional data analysis in finance. The mp_randomness_test function presented here is an original contribution by Dr Krzysztof Ozimek. 
 
 ---
 
+
+## Notes
+
+- This code is intended for educational and research purposes
+- Both R and Python versions follow a consistent methodological structure
+
+---
+
+## Author
+
+Dr Krzysztof Ozimek  
+https://www.drkrzysztofozimek.com/
 
 

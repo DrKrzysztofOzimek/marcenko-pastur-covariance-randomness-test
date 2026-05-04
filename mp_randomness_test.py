@@ -13,7 +13,7 @@ def mp_randomness_test(data, B=1000):
     #
     # Args:
     #   data : A numeric matrix or data frame (rows = observations, columns = variables).
-    #   B    : Number of simualtions (default = 1000).
+    #   B    : Number of simulations (default = 1000).
     #
     # Returns:
     #   p-value: Probability of observing a proportion of eigenvalues within
